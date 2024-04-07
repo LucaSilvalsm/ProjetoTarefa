@@ -1,0 +1,138 @@
+.navbar-brand img{
+    width: 50px;
+}
+
+#main-title{
+    text-align: center;
+    margin: 15px 0 30px;
+}
+
+
+
+
+/* Home */ 
+
+
+#tarefa-table{
+    max-width: 1000vb;
+    margin: 0 auto;
+
+}
+
+#tarefa-table thead{
+
+    color: #ffff;
+    background-color: #007bff;
+    text-align: center;
+
+
+
+}
+
+#tarefa-table td{
+    text-align: center;
+}
+.col-id{
+    font-weight: bolder;
+}
+.fa-arrow-up{
+    color: black;
+
+}
+.fa-arrow-down{
+    color: red;
+}
+.action {
+    text-align: right;
+    width: 150px;
+
+}
+
+.action i{
+    font-size: 18px;
+    margin-right: 5px;
+    
+
+}
+.check-icon{
+    color: #1e7e34;
+
+}
+.edit-icon{
+    color: black;
+
+}
+.delete-form{
+    display: inline-block;
+}
+.delete-icon{
+    color: red;
+
+}
+
+.delete-btn{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+#empty-list-text{
+    text-align: center;
+}
+
+#msg{
+    color: #155754;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+
+/* Show o contato individual */
+
+#view-tarefa-container{
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#back-link-container{
+    display: block;
+    width: 500px;
+    margin: 30px;
+
+}
+
+#back-link{
+    border: 1px solid #007bff;
+    color: #007bff;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+
+/* CREATE */
+
+
+#create-form,
+#edit-form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+    #home-link {
+        display: none;
+    }
+}
